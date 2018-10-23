@@ -1,3 +1,6 @@
+import turtle as t
+
+
 def drawSquare(t, sz):
     """Make turtle t draw a square of sz."""
 
@@ -5,4 +8,4 @@ def drawSquare(t, sz):
         t.forward(sz)
         t.left(90)
 
-    print (drawSquare(90, 10))
+    print (drawSquare(t, 10))
